@@ -1,0 +1,80 @@
+header{
+    background-color:#FFFFFF;
+    padding: 1em 1em;
+}
+nav ul {
+    right: 0;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 15px;
+}
+nav ul li a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F8F6E9;
+    color: #5A040A;
+
+}
+a:hover{
+    background-color: #5A040A;
+    color: #F8F6E9;
+    cursor: pointer;
+}
+
+#imagen {
+    display: flex;
+
+    flex-direction: row-reverse;
+    height: 100vh;
+    margin: 0;
+    width: 50%;
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0;
+    padding: 5em 1em;
+    text-align: right;
+}
+
+section h1 {
+   display: contents;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #6a040f;
+
+}
+
+.content p {
+    flex-direction: row;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #4f1a20;
+    /* Cambia según el diseño */
+}
+
+.show {
+    padding: 10px 20px;
+    background-color: #6a040f;
+    /* Color de fondo del botón */
+    color: white;
+    /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.show:hover {
+    background-color: #8d1b28;
+    /* Color de fondo al pasar el cursor */
+}

@@ -9,6 +9,7 @@ header{
     
 }
  nav ul{
+    right: 0;
     position: fixed;
     padding: 0;
     margin: 0;
